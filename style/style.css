@@ -55,7 +55,7 @@ main{
 }
 
 main .presentacion{
-    display: inline-block;
+    /* display: inline-block; */
     padding: 20px;
     margin: 10px;
     background-color: #AA9B81;
@@ -85,6 +85,7 @@ h3{
 }
 
 main .presentacion p{
+    display: inline-block;
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
@@ -173,19 +174,20 @@ main .botonDemo:hover{
 }
 
 .prod{
-    
+    display: flex;
+    flex-direction: column;
     margin-top: 15px;
     padding: 10px;
     border: white solid 5px;
 }
 
-.prod img{
-    height: auto;
+.imagenIzq{
     width: 25%;
 }
 
 .productos .prod aside{
-    float: right
+    display: block;
+    
 }
 
 .productos p a{
@@ -254,7 +256,7 @@ main .botonDemo:hover{
 
 footer{
     background-color: #AA9B81;
-    height: 100px;
+    height: 150px;
     width: 100%;
     font-size: 22px;
     font-family: Special Elite;

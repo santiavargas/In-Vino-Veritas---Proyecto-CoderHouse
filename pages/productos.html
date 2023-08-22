@@ -4,8 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>In Vino Veritas</title>
-    <link rel="stylesheet" href="../style/style.css">
+    <!-- fontawesome inicia -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- fontawesome fin -->
+    <!-- bootstrap inicia -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- bootstrap fin -->
+    <link rel="stylesheet" href="../style/style.css">
+    
 </head>
 <body>
     <header>
@@ -26,27 +32,183 @@
             <p>En esta sección podras encontrar nuesta variedad de productos</p>
             <div class="prod" id="vinosTintos">
                 <h3>Vinos Tintos</h3>
-                <img src="../image/vino tinto 1.jpg" alt="Vinos Tintos">
+                <div class="imagenIzq">
+                    <!-- Carousel -->
+                    <div id="demo" class="carousel slide w-100" data-bs-ride="carousel">
+
+                        <!-- Indicators/dots -->
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                            </div>
+
+                        <!-- The slideshow/carousel -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../image/Vino tinto 1.jpeg" alt="Vino tinto 1" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../image/Vino tinto 2.jpeg" alt="Vino tinto 2" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../image/Vino tinto 3.jpeg" alt="Vino tinto 3" class="d-block w-100">
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    </div>
+                </div>
                 <aside><p>Acá va un texto sobre vinos tintos</p></aside>
             </div>
+                
             <div class="prod" id="vinosBlancos">
                 <h3>Vinos Blancos</h3>
-                <img src="../image/vino blanco 1.jpg" alt="Vinos Blancos">
+                <!-- Carousel -->
+                <div id="demo1" class="carousel slide w-25" data-bs-ride="carousel">
+
+                    <!-- Indicators/dots -->
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#demo1" data-bs-slide-to="0" class="active"></button>
+                                <button type="button" data-bs-target="#demo1" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#demo1" data-bs-slide-to="2"></button>
+                        </div>
+
+                    <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../image/Vino blanco 1.jpeg" alt="Vino blanco 1" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../image/Vino blanco 2.jpeg" alt="Vino blanco 2" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../image/Vino blanco 3.jpeg" alt="Vino blanco 3" class="d-block w-100">
+                    </div>
+                </div>
+
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo1" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo1" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                </div>
                 <aside><p>Acá va un texto sobre vinos blancos</p></aside>
             </div>
             <div class="prod" id="vinosRosados">
                 <h3>Vinos Rosados</h3>
-                <img src="../image/vino rosado 1.jpg" alt="Vinos Rosados">
+                <!-- Carousel -->
+                <div id="demo2" class="carousel slide w-25" data-bs-ride="carousel">
+
+                    <!-- Indicators/dots -->
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#demo2" data-bs-slide-to="0" class="active"></button>
+                                <button type="button" data-bs-target="#demo2" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#demo2" data-bs-slide-to="2"></button>
+                        </div>
+
+                    <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../image/Vino rosado 1.jpeg" alt="Vino tinto 1" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../image/Vino rosado 2.jpeg" alt="Chicago" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../image/Vino rosado 3.jpeg" alt="New York" class="d-block w-100">
+                    </div>
+                </div>
+
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo2" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo2" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                </div>
+            <!-- <img src="../image/vino tinto 1.jpg" alt="Vinos Tintos"> -->
                 <aside><p>Acá va un texto sobre vinos rosados</p></aside>
             </div>
             <div class="prod" id="vinosEspumantes">
                 <h3>Vinos Espumantes</h3>
-                <img src="../image/vino espumante 1.jpg" alt="Vinos Espumantes">
+                <!-- Carousel -->
+                <div id="demo3" class="carousel slide w-25" data-bs-ride="carousel">
+
+                    <!-- Indicators/dots -->
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#demo3" data-bs-slide-to="0" class="active"></button>
+                                <button type="button" data-bs-target="#demo3" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#demo3" data-bs-slide-to="2"></button>
+                        </div>
+
+                    <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../image/Espumante 1.jpeg" alt="Vino tinto 1" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../image/Espumante 2.jpeg" alt="Chicago" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../image/Espumante 3.jpeg" alt="New York" class="d-block w-100">
+                    </div>
+                </div>
+
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo3" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo3" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                </div>
+            <!-- <img src="../image/vino tinto 1.jpg" alt="Vinos Tintos"> -->
                 <aside><p>Acá va un texto sobre vinos espumantes</p></aside>
             </div>
             <div class="prod" id="otrasOpciones">
                 <h3>Otras opciones</h3>
-                <img src="../image/cervezas 1.jpg" alt="Cervezas">
+                <!-- Carousel -->
+                <div id="demo4" class="carousel slide w-25" data-bs-ride="carousel">
+
+                    <!-- Indicators/dots -->
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#demo4" data-bs-slide-to="0" class="active"></button>
+                                <button type="button" data-bs-target="#demo4" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#demo4" data-bs-slide-to="2"></button>
+                        </div>
+
+                    <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../image/cerveza.jpeg" alt="Vino tinto 1" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../image/fernet.jpeg" alt="Chicago" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../image/gancia.jpeg" alt="New York" class="d-block w-100">
+                    </div>
+                </div>
+
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo4" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo4" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                </div>
+            <!-- <img src="../image/vino tinto 1.jpg" alt="Vinos Tintos"> -->
                 <aside><p>Acá va un texto sobre las otras opciones de la página</p></aside>
             </div>
             <p>Si tenés alguna duda podes consultar nuestra pagina de <a href="./faq.html">preguntas frecuentes</a> o podes <a href="./contacto.html">contactarte con nosotros</a></p>
@@ -66,5 +228,6 @@
         
     </footer>
     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

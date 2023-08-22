@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Cinzel:wght@500&family=Special+Elite&display=swap');
+
+/* font-family: 'Beth Ellen', cursive;
+font-family: 'Cinzel', serif;
+font-family: 'Special Elite', cursive; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #AA9B81;
+    height: 100px;
+    width: 100%;
+    font-size: 30px;
+    padding: 15px;
+    font-family: Special Elite;
+}
+
+.logo{
+    color: white;
+    float: left;
+    font-size: 40px;
+}
+
+.logo span{
+    color: #722F37;
+}
+
+.barra{
+    float: right;
+}
+
+.barra ul{
+    list-style: none;
+}
+
+.barra ul li{
+    display: inline-block;
+}
+
+.barra a{
+    text-decoration: none;
+    color: white;
+}
+
+.barra a:hover{
+    color:#722F37;
+}
+
+main{
+    height: auto;
+}
+
+main .presentacion{
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    background-color: #AA9B81;
+    
+}
+
+main .presentacion img{
+    height: auto;
+    width: 50%;
+}
+
+h1{
+    color: #722F37;
+    font-family: Special Elite;
+    font-size: 20;
+    text-align: center;
+}
+
+h2{
+    color: #722F37;
+    font-family: Special Elite;
+}
+
+h3{
+    color: #722F37;
+    font-family: Special Elite;
+}
+
+main .presentacion p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+
+}
+
+main .presentacion p span{
+    font-family: beth ellen;
+    color: #722F37;
+}
+
+main .presentacion aside{
+    float: right;
+}
+
+main .precauciones{
+    display: inline-block;
+    background-color: #AA9B81;
+    padding: 20px;
+    margin: 10px;
+    width: calc(100% - 20px);
+}
+
+main .precauciones h2{
+    color: #722F37;
+    font-family: Special Elite;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+main .precauciones li{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;    
+}
+
+main .demostracion{
+    background-color: #AA9B81;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+}
+
+main .demo{
+    margin: 10px;
+    padding: 15px;
+    border: white solid 5px;
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    
+}
+
+main .demo img{
+    height: auto;
+    width: 100%;
+}
+
+main .botonDemo{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #722F37;
+    text-decoration: none;
+    color: white;
+    float: right;
+}
+
+main .botonDemo:hover{
+    background-color: white;
+    color: #722F37;
+}
+
+.demostracion p a{
+    color: white;    
+}
+
+.demostracion p a:hover{
+    color: #722F37;
+}
+
+.productos{
+    margin: 15px;
+    padding: 10px;
+    background-color: #AA9B81;
+    color: white;
+}
+
+.prod{
+    
+    margin-top: 15px;
+    padding: 10px;
+    border: white solid 5px;
+}
+
+.prod img{
+    height: auto;
+    width: 25%;
+}
+
+.productos .prod aside{
+    float: right
+}
+
+.productos p a{
+    color: white;
+}
+
+.productos p a:hover{
+    color: #722F37;
+}
+
+.faq{
+    margin: 10px;
+    padding: 15px;
+    background-color: #AA9B81;
+    color: white;
+}
+
+.faq .preg{
+    width: 50%;
+    padding-top: 10px;
+    border-bottom: white solid 2px;
+}
+
+.imagenesFAQ img{
+    width: 25%;    
+}
+
+.nosotros{
+    margin: 10px;
+    padding: 15px;
+    background-color: #AA9B81;
+    color: white;
+}
+
+.nos{
+    border: white solid 5px;
+    margin: 3px;
+}
+
+.nos img{
+    width: 50%;
+}
+
+.nos p{
+    float: right;
+}
+
+.contacto{
+    background-color: #AA9B81;
+    margin: 10px;
+    padding: 15px;
+    color: white;
+    height: 100vh;
+}
+
+.formulario{
+    width: 50%;
+    display: inline-block;
+}
+
+.redes{
+    width: 50%;
+    height: auto;
+    float: right;
+}
+
+footer{
+    background-color: #AA9B81;
+    height: 100px;
+    width: 100%;
+    font-size: 22px;
+    font-family: Special Elite;
+    color: white;
+    padding: 15px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+footer p a{
+    text-decoration: none;
+    color: white;
+}
+
+footer p a:hover{
+    color: #722F37;
+}
+
+.iconos{
+    font-size: 40px;
+
+}
+
+.iconos p{
+    margin: 10px;
+    font-family: Special Elite;
+    display: inline-block;
+    font-size: 30px;
+}
+
+i:hover{
+    color:#722F37;
+}

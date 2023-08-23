@@ -329,3 +329,9 @@ footer p a:hover{
 i:hover{
     color:#722F37;
 }
+
+@media only screen and (max-width: 575px){
+    footer p{
+        display: none;
+    }
+}

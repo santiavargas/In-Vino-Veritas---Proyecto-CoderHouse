@@ -13,25 +13,49 @@
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-    <header>
-        <div class="logo">In <span>Vino</span> Veritas</div>
-        <nav class="barra">
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="./pages/productos.html">Productos</a></li>
-                <li><a href="./pages/faq.html">FAQ</a></li>
-                <li><a href="./pages/nosotros.html">Nosotros</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">In <span>Vino</span> Veritas</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="barra-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="barra-link" href="./pages/productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="barra-link" href="./pages/faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="barra-link" href="./pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="barra-link" href="./pages/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
     <main>
         <section class="presentacion">
-            <img src="./image/presentacion.jpg" alt="brindis">
-            <aside>
-                <h1>In vino Veritas</h1>
-                <p>Texto de presentacion <br><span>"El mejor vino no es el más caro, sino el que se comparte"</span></p>
-            </aside>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="nleft col-sm-6">
+                        <img src="./image/presentacion.jpg" alt="brindis">
+                    </div>
+                    <div class="nright col-sm-6">
+                        <aside>
+                            <h1>In vino Veritas</h1>
+                            <p>Texto de presentacion <br><span>"El mejor vino no es el más caro, sino el que se comparte"</span></p>
+                        </aside>
+                    </div>
+            
+            
             
         </section>
         <section class="precauciones">
@@ -40,6 +64,7 @@
                 <li>Prohibida su venta a menores de 18 años</li>
                 <li>No conducir si tomaste alcohol</li>
                 <li>El exceso de estas sustancias puede ser perjudicial para la salud</li>
+                <li>Si tenes o conoces a alguien con algún problema de adiccion podes buscar info <a href="https://www.argentina.gob.ar/justicia/derechofacil/leysimple/adicciones-y-consumos-problematicos">acá</a></li>
             </ul>
         </section>
         <section class="demostracion">

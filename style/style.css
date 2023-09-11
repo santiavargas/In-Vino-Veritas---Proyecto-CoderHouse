@@ -142,6 +142,8 @@ main .botonDemo {
 main .botonDemo:hover {
   background-color: white;
   color: #722F37;
+  transform: scale(1.1);
+  transition: all 1s;
 }
 
 .productos {
@@ -244,8 +246,13 @@ main .botonDemo:hover {
   display: inline-block;
   font-size: 30px;
 }
+.contacto .redes i {
+  transform: skew(0);
+  transition: 0.5s;
+}
 .contacto .redes i:hover {
   color: #722F37;
+  transform: skewX(-15deg);
 }
 
 footer {
@@ -275,8 +282,13 @@ footer .iconos p {
   display: inline-block;
   font-size: 30px;
 }
+footer i {
+  transform: rotateY(0deg);
+  transition: 1s;
+}
 footer i:hover {
   color: #722F37;
+  transform: rotateY(360deg);
 }
 
 @media only screen and (max-width: 575px) {

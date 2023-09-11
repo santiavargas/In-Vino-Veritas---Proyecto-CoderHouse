@@ -153,6 +153,8 @@ main{
     .botonDemo:hover{
         background-color: $color3;
         color: $color2;
+        transform: scale(1.1);
+        transition: all 1s;
     }
 }
 
@@ -256,8 +258,13 @@ main{
                 font-size: 30px;
             }
         }
+        i{
+            transform: skew(0);
+            transition: 0.5s;
+        }
         i:hover{
             color:$color2;
+            transform: skewX(-15deg);
         }
     }
 }
@@ -288,8 +295,13 @@ footer{
             font-size: 30px;
         }
     }
+    i{
+        transform: rotateY(0deg);
+        transition: 1s;
+    }
     i:hover{
         color:$color2;
+        transform: rotateY(360deg);
     }
 }
 

@@ -168,14 +168,18 @@ main .demostracion{
     margin: 10px;
 }
 
+.containerDemostracionDemo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 main .demo{
     margin: 10px;
     padding: 15px;
     border: white solid 5px;
     width: 300px;
-    height: 400px;
-    display: inline-block;
-    
+    height: 400px;    
 }
 
 main .demo img{
@@ -261,12 +265,6 @@ background-color:  #AA9B81;
     text-align: center;
 }
 
-/* .faq .preg{
-    width: 50%;
-    padding-top: 10px;
-    border-bottom: white solid 2px;
-} */
-
 .imagenesFAQ img{
     width: 50%;
     margin-bottom: 5px;    
@@ -282,14 +280,18 @@ background-color:  #AA9B81;
 .nos{
     border: white solid 5px;
     margin: 3px;
+    display: flex;
 }
 
 .nos img{
     width: 50%;
+    margin: 10px;
+    padding: 10px;
 }
 
 .nos p{
-    float: right;
+    margin:10px;
+    padding: 10px;
 }
 
 .contacto{
@@ -373,4 +375,23 @@ i:hover{
         margin-top: 5px;    
     }
 
+    .containerDemostracionDemo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .nos img{
+        width: 100%;
+        
+    }
 }

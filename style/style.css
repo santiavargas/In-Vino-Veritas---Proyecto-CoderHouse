@@ -299,18 +299,30 @@ background-color:  #AA9B81;
     margin: 10px;
     padding: 15px;
     color: white;
-    height: 100vh;
+    height: auto;
+    display: flex;
 }
 
 .formulario{
     width: 50%;
-    display: inline-block;
+}
+
+.formulario form input{
+    width: 70%;
+    margin:2px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.formulario form textarea{
+    width: 70%;
+    margin: 2px;
+    padding: 2px;
 }
 
 .redes{
     width: 50%;
     height: auto;
-    float: right;
 }
 
 footer{
@@ -393,5 +405,21 @@ i:hover{
     .nos img{
         width: 100%;
         
+    }
+
+    .contacto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .formulario{
+        width: 100%;
+    }
+
+    .redes{
+        width: 100%;
+        height: auto;
     }
 }

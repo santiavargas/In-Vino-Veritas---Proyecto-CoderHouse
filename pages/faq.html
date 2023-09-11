@@ -43,7 +43,7 @@
     <main class="faq">
         <h2>FAQ - Preguntas Frecuentes</h2>
         <p>Acá podras encontrar las preguntas que nos hacen más frecuentemente</p>
-        <div class="preguntas">
+        <!-- <div class="preguntas">
             <div class="preg"><h3>pregunta 1</h3>
                 <p>Respuesta a pregunta 1</p></div>
             <div class="preg"><h3>pregunta 2</h3>
@@ -54,11 +54,78 @@
                 <p>Respuesta a pregunta 4</p></div>
             <div class="preg"><h3>pregunta 5</h3>
                 <p>Respuesta a pregunta 5</p></div>
+        </div> -->
+    <div class="containerFAQ">
+        <div id="accordion">
+
+            <div class="card">
+                <div class="card-header">
+                    <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                    <h3>¿Hacen envíos a todo el país?</h3>
+                    </a>
+                </div>
+                <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        <p>Lorem ipsum..</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+                        <h3>¿Hay mínimo de compra?</h3>
+                    </a>
+                </div>
+                <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        <p>Lorem ipsum..</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+                        <h3>¿Cuánta demora tiene la entrega?</h3>
+                    </a>
+                </div>
+                <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        <p>Lorem ipsum..</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFour">
+                        <h3>¿Cuáles son los metodos de pago aceptados?</h3>
+                    </a>
+                </div>
+                <div id="collapseFour" class="collapse" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        <p>Lorem ipsum..</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFive">
+                        <h3>¿Hay promociones?</h3>
+                    </a>
+                </div>
+                <div id="collapseFive" class="collapse" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        <p>Lorem ipsum..</p>
+                    </div>
+                </div>
+            </div>
         </div>
         <aside class="imagenesFAQ">
             <img src="../image/imagen preguntas 1.jpg" alt="Botellas oscuras">
-            <img src="../image/imagen preguntas  2.jpg" alt="Copas oscuras">
+            <img src="../image/imagen preguntas 3.jpg" alt="Copas oscuras">
         </aside>
+    </div>
     </main>
     <footer>
         <p>Derechos recervados......... - <a href="./nosotros.html">Nosotros</a> - <a href="./contacto.html">Contacto</a> </p>

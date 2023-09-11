@@ -244,14 +244,32 @@ main .botonDemo:hover{
     color: white;
 }
 
-.faq .preg{
+.containerFAQ{
+    display: flex;
+}
+
+#accordion{
+    width: 50%;
+}
+
+.card {
+background-color:  #AA9B81;
+}
+
+.imagenesFAQ{
+    width: 50%;
+    text-align: center;
+}
+
+/* .faq .preg{
     width: 50%;
     padding-top: 10px;
     border-bottom: white solid 2px;
-}
+} */
 
 .imagenesFAQ img{
-    width: 25%;    
+    width: 50%;
+    margin-bottom: 5px;    
 }
 
 .nosotros{
@@ -334,4 +352,25 @@ i:hover{
     footer p{
         display: none;
     }
+
+    .containerFAQ{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #accordion{
+        width: 100%;
+    }
+
+    .imagenesFAQ{
+        width: 100%;
+        text-align: center;
+    }
+
+    .imagenesFAQ img{
+        width: 100%;
+        margin-bottom: 5px;
+        margin-top: 5px;    
+    }
+
 }

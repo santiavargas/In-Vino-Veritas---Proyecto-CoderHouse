@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Cinzel:wght@500&family=Special+Elite&display=swap');
+
+/* font-family: 'Beth Ellen', cursive;
+font-family: 'Cinzel', serif;
+font-family: 'Special Elite', cursive; */
+
+$color1: #AA9B81;
+$color2: #722F37;
+$color3:white;
+$font1: Special Elite;
+$font2: Beth Ellen;
+$font3: 'Times New Roman', Times, serif;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: $color2;
+    font-family: $font1;
+    font-size: 20;
+    text-align: center;
+}
+
+h2{
+    color: $color2;
+    font-family: $font1;
+}
+
+h3{
+    color: $color2;
+    font-family: $font1;
+}
+
+.navbar{
+    background-color: $color1;
+}
+
+.navbar-brand{
+    color: $color3;
+    font-size: 40px;
+    font-family: $font1;
+    span{
+        color: $color2;
+    }
+}
+
+.navbar-nav{
+    font-family: $font1;
+    font-size: 20px;
+}
+
+.barra-link{
+    text-decoration: none;
+    color: $color3;
+    padding: 7px;
+}
+
+.barra-link:hover{
+    color: $color2;
+}
+
+main{
+    height: auto;
+    .presentacion{
+        height: auto;
+        padding: 20px;
+        margin: 10px;
+        background-color: $color1;
+        h1{
+            margin:10px;
+        }
+        p{
+            text-align: center;
+            color: $color3;
+            font-family: $font3;
+            font-size: 18px;
+            span{
+                font-family: $font2;
+                color: $color2;
+            }
+        }
+        img{
+            height: auto;
+            width: 100%;
+        }
+    }
+    .precauciones{
+        display: inline-block;
+        background-color: $color1;
+        padding: 20px;
+        margin: 10px;
+        width: calc(100% - 20px);
+        h2{
+            color: $color2;
+            font-family: $font1;
+            font-size: 30px;
+            text-decoration: underline;
+        }
+        li{
+            color: $color3;
+            font-family: $font3;
+            font-size: 18px;
+            a{
+                color: $color3;
+            }
+            a:hover{
+                color:$color2;
+            }
+        }
+    }
+    .demostracion{
+        background-color: $color1;
+        color: $color3;
+        padding: 15px;
+        margin: 10px;
+        p{
+            a{
+                color:$color3;
+            }
+            a:hover{
+                color: $color2;
+            }
+        }
+    }
+    .containerDemostracionDemo{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .demo{
+        margin: 10px;
+        padding: 15px;
+        border: $color3 solid 5px;
+        width: 300px;
+        height: 400px;
+        img{
+            height: auto;
+            width: 100%;
+        }
+    }
+    .botonDemo{
+        margin-top: 10px;
+        padding: 10px;
+        background-color: $color2;
+        text-decoration: none;
+        color: $color3;
+        float: right;
+    }
+    .botonDemo:hover{
+        background-color: $color3;
+        color: $color2;
+    }
+}
+
+.productos{
+    margin: 10px;
+    padding: 15px;
+    background-color: $color1;
+    color: $color3;
+    .prod{
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+        padding: 10px;
+        border: $color3 solid 5px;
+    }
+    p{
+        a{
+            color:$color3;
+        }
+        a:hover{
+            color:$color2;
+        }
+    }
+}
+
+.faq{
+    margin: 10px;
+    padding: 15px;
+    background-color: $color1;
+    color: $color3;
+    .containerFAQ{
+        display: flex;
+    }
+    #accordion{
+        width: 50%;
+        .card {
+            background-color:  $color1;
+        }
+    }
+    .imagenesFAQ{
+        width: 50%;
+        text-align: center;
+        img{
+            width: 50%;
+            margin-bottom: 5px;    
+        }
+    }
+}
+
+.nosotros{
+    margin: 10px;
+    padding: 15px;
+    background-color: $color1;
+    color: $color3;
+    .nos{
+        border: $color3 solid 5px;
+        margin: 3px;
+        display: flex;
+        img{
+            width: 50%;
+            margin: 10px;
+            padding: 10px;
+        }
+        p{
+            margin:10px;
+            padding: 10px;
+        }
+    }
+}
+
+.contacto{
+    background-color: $color1;
+    margin: 10px;
+    padding: 15px;
+    color: $color3;
+    height: auto;
+    display: flex;
+    .formulario{
+        width: 50%;
+        form input{
+            width: 70%;
+            margin:2px;
+            padding: 2px;
+            box-sizing: border-box;
+        }
+        form textarea{
+            width: 70%;
+            margin: 2px;
+            padding: 2px;
+        }
+    }
+    .redes{
+        width: 50%;
+        height: auto;
+        .iconos{
+            font-size: 40px;
+            p{
+                margin: 10px;
+                font-family: $font1;
+                display: inline-block;
+                font-size: 30px;
+            }
+        }
+        i:hover{
+            color:$color2;
+        }
+    }
+}
+
+footer{
+    background-color: $color1;
+    height: 150px;
+    width: 100%;
+    font-size: 22px;
+    font-family: $font1;
+    color: $color3;
+    padding: 15px;
+    margin-top: 15px;
+    text-align: center;
+    p a{
+        text-decoration: none;
+        color: $color3;
+    }
+    p a:hover{
+        color: $color2;
+    }
+    .iconos{
+        font-size: 40px;
+        p{
+            margin: 10px;
+            font-family: $font1;
+            display: inline-block;
+            font-size: 30px;
+        }
+    }
+    i:hover{
+        color:$color2;
+    }
+}
+
+@media only screen and (max-width: 575px){
+    footer p{
+        display: none;
+    }
+
+    .containerFAQ{
+        display: flex;
+        flex-direction: column;
+        #accordion{
+            width: 100%;
+        }
+        .imagenesFAQ{
+            width: 100%;
+            text-align: center;
+            img{
+                width: 100%;
+                margin-bottom: 5px;
+                margin-top: 5px;    
+            }
+        }
+    }
+
+    .containerDemostracionDemo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nosotros{
+        .nos{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+    .contacto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .formulario{
+            width: 100%;
+        }
+        .redes{
+            width: 100%;
+            height: auto;
+        }
+    }
+}

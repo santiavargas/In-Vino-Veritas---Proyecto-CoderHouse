@@ -11,7 +11,6 @@ font-family: 'Special Elite', cursive; */
 h1 {
   color: #722F37;
   font-family: Special Elite;
-  font-size: 20;
   text-align: center;
 }
 
@@ -23,6 +22,11 @@ h2 {
 h3 {
   color: #722F37;
   font-family: Special Elite;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
 }
 
 .navbar {
@@ -58,7 +62,7 @@ main {
 }
 main .presentacion {
   height: auto;
-  padding: 20px;
+  padding: 15px;
   margin: 10px;
   background-color: #AA9B81;
 }
@@ -69,7 +73,8 @@ main .presentacion p {
   text-align: center;
   color: white;
   font-family: "Times New Roman", Times, serif;
-  font-size: 18px;
+  font-size: 20px;
+  padding: 50px;
 }
 main .presentacion p span {
   font-family: Beth Ellen;
@@ -82,14 +87,11 @@ main .presentacion img {
 main .precauciones {
   display: inline-block;
   background-color: #AA9B81;
-  padding: 20px;
+  padding: 15px;
   margin: 10px;
   width: calc(100% - 20px);
 }
 main .precauciones h2 {
-  color: #722F37;
-  font-family: Special Elite;
-  font-size: 30px;
   text-decoration: underline;
 }
 main .precauciones li {
@@ -159,6 +161,15 @@ main .botonDemo:hover {
   padding: 10px;
   border: white solid 5px;
 }
+.productos aside {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.productos aside p {
+  font-size: 20px;
+}
 .productos p a {
   color: white;
 }
@@ -174,6 +185,13 @@ main .botonDemo:hover {
 }
 .faq .containerFAQ {
   display: flex;
+}
+.faq .containerFAQ p a {
+  text-decoration: none;
+  color: white;
+}
+.faq .containerFAQ p a:hover {
+  color: #722F37;
 }
 .faq #accordion {
   width: 50%;
@@ -266,6 +284,10 @@ footer {
   margin-top: 15px;
   text-align: center;
 }
+footer p {
+  font-family: Special Elite;
+  font-size: 25px;
+}
 footer p a {
   text-decoration: none;
   color: white;
@@ -291,9 +313,32 @@ footer i:hover {
   transform: rotateY(360deg);
 }
 
+.botonSubir {
+  background-color: #722F37;
+  color: white;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  text-align: center;
+  line-height: 70px;
+  text-decoration: none;
+  font-family: Special Elite;
+  font-size: 40px;
+}
+
+.botonSubir:hover {
+  background-color: white;
+  color: #722F37;
+}
+
 @media only screen and (max-width: 575px) {
   footer p {
     display: none;
+  }
+  main .presentacion p {
+    padding: 5px;
   }
   .containerFAQ {
     display: flex;
@@ -338,5 +383,8 @@ footer i:hover {
   .contacto .redes {
     width: 100%;
     height: auto;
+  }
+  .botonSubir {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */

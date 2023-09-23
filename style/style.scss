@@ -21,7 +21,6 @@ $font3: 'Times New Roman', Times, serif;
 h1{
     color: $color2;
     font-family: $font1;
-    font-size: 20;
     text-align: center;
 }
 
@@ -33,6 +32,11 @@ h2{
 h3{
     color: $color2;
     font-family: $font1;
+}
+
+p{
+    font-family: $font3;
+    font-size: 18px;
 }
 
 .navbar{
@@ -67,7 +71,7 @@ main{
     height: auto;
     .presentacion{
         height: auto;
-        padding: 20px;
+        padding: 15px;
         margin: 10px;
         background-color: $color1;
         h1{
@@ -77,7 +81,8 @@ main{
             text-align: center;
             color: $color3;
             font-family: $font3;
-            font-size: 18px;
+            font-size: 20px;
+            padding: 50px;
             span{
                 font-family: $font2;
                 color: $color2;
@@ -91,13 +96,10 @@ main{
     .precauciones{
         display: inline-block;
         background-color: $color1;
-        padding: 20px;
+        padding: 15px;
         margin: 10px;
         width: calc(100% - 20px);
         h2{
-            color: $color2;
-            font-family: $font1;
-            font-size: 30px;
             text-decoration: underline;
         }
         li{
@@ -170,6 +172,15 @@ main{
         padding: 10px;
         border: $color3 solid 5px;
     }
+    aside{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p{
+            font-size: 20px;
+        }
+    }
     p{
         a{
             color:$color3;
@@ -187,6 +198,15 @@ main{
     color: $color3;
     .containerFAQ{
         display: flex;
+        p{
+            a{
+                text-decoration: none;
+                color:$color3;
+            }
+            a:hover{
+                color:$color2;
+            }
+        }
     }
     #accordion{
         width: 50%;
@@ -279,6 +299,10 @@ footer{
     padding: 15px;
     margin-top: 15px;
     text-align: center;
+    p{
+        font-family: $font1;
+        font-size: 25px;
+    }
     p a{
         text-decoration: none;
         color: $color3;
@@ -305,9 +329,38 @@ footer{
     }
 }
 
+.botonSubir{
+    background-color: $color2;
+    color: $color3;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    line-height: 70px;
+    text-decoration: none;
+    font-family: $font1;
+    font-size: 40px;
+}
+
+.botonSubir:hover{
+    background-color: $color3;
+    color: #722F37;
+
+}
+
 @media only screen and (max-width: 575px){
     footer p{
         display: none;
+    }
+
+    main{
+        .presentacion{
+        p{
+            padding:5px;
+        }
+    }
     }
 
     .containerFAQ{
@@ -358,5 +411,9 @@ footer{
             width: 100%;
             height: auto;
         }
+    }
+
+    .botonSubir{
+        display: none;
     }
 }
